@@ -32,8 +32,8 @@ class ClAuthToken(models.Model):
 
 class ClUserData(models.Model):
     user = models.ForeignKey(USER_MODEL, related_name='chile_auth_data')
-    rut = models.CharField('RUT', max_length=12, null=True, False=True)
-    name = models.CharField('RUT', max_length=12, null=True, False=True)
+    rut = models.CharField('RUT', max_length=12, null=True, blank=True)
+    name = models.CharField('RUT', max_length=12, null=True, blank=True)
 
     class Meta:
         app_label = 'chileauth'
