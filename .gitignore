@@ -1,5 +1,7 @@
 # Created by https://www.gitignore.io/api/python,django
 
+*.sublime-project
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -101,3 +103,6 @@ local_settings.py
 db.sqlite3
 media
 
+
+### Fabric ###
+fabfile.py

@@ -2,7 +2,7 @@
 u"""
 Conjunto de decoradores para crear datos de sesión o autenticación necesarios
 para hacer funcionar ClaveUnica.
-Pueden ser llamados como cualquier otros decorador de Django.
+Pueden ser llamados como cualquier otro decorador de Django.
 """
 from .middleware import ClAuthMiddleware
 from django.utils.decorators import decorator_from_middleware
